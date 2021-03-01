@@ -1,0 +1,112 @@
+img{
+    max-width: 100%;
+}
+.our-navbar span {
+	float: left;
+	width: 31px;
+	height: 44px;
+	border: 2px solid #fb5e02;
+	text-align: center;
+	color: #fb5e02;
+	border-radius: 5px;
+}
+
+.our-menu .nav-link{
+    display: inline-block;
+    padding: 0 20px !important;
+}
+
+.our-btn{
+    background: #fff !important;
+    color: #fb5e02;
+    font-weight: bold;
+    border-color: #fb5e02;
+    position: relative;
+    transition: .5s;
+    z-index: 1;
+}
+.our-btn::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: #000;
+   
+    transition: .5s;
+    z-index: -1;
+}
+.our-btn:hover{
+    border-color: #000;
+    color: #fb5e02;
+}
+.our-btn:hover::after{
+    width: 100%;
+    left: 0;
+}
+/* slider-section */
+.slider-section{
+    background: url(./519-5198179_home-transfer-slider-slide1-woman-girl-hd-png.png) no-repeat center center;
+    padding: 220px 0;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0,0,0,.7);
+}
+
+.slider-btn{
+    color: #fff;
+    font-weight: bold;
+    border-color: #fb5e02; 
+}
+
+/* about-section */
+.about-section{
+    background: #f7f9ff;
+}
+.about-text{
+    margin-top: 130px;
+
+}
+.about-text h1{
+    margin-bottom: 25px;
+}
+.about-text p{
+    font-size: 22px;
+    line-height: 2.7rem;
+}
+/* feature-section */
+.feature-section{}
+
+
+.feature-items{
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.feature-img{
+    width: 40%;
+    overflow: hidden;
+}
+.feature-img img{
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+
+}
+.feature-content{
+    width: 60%;
+    
+}
+.feature-btn{
+    color: #fb5e02;
+    font-weight: bold;
+    border-color: #fb5e02; 
+}
+/* number-counter-section */
+.number-counter-section{
+    background: #f7f9ff;
+}
+.number-counter-section h1{
+    font-weight: 700;
+}
+.number-counter-section p{
+    color: #767676;
+}
